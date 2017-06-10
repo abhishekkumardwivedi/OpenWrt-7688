@@ -27,6 +27,9 @@ To build your own firmware you need to have access to a Linux, BSD or MacOSX sys
 (case-sensitive filesystem required). Cygwin will not be supported because of
 the lack of case sensitiveness in the file system.
 
+* Flashing steps: https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/tutorials/firmware-and-bootloader/update-the-firmware-with-a-usb-drive
+
+* Basic understanding: http://wiki.seeedstudio.com/wiki/LinkIt_Smart_7688
 
 Sunshine!
 	Your OpenWrt Project
