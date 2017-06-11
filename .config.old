@@ -3619,7 +3619,7 @@ CONFIG_MINIUPNPD_IGDv2=y
 # CONFIG_PACKAGE_cshark is not set
 # CONFIG_PACKAGE_daemonlogger is not set
 # CONFIG_PACKAGE_darkstat is not set
-CONFIG_PACKAGE_dhcpcd=y
+# CONFIG_PACKAGE_dhcpcd is not set
 # CONFIG_PACKAGE_dmapd is not set
 # CONFIG_PACKAGE_ds-lite is not set
 # CONFIG_PACKAGE_eapol-test is not set

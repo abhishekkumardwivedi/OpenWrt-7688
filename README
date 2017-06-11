@@ -31,6 +31,8 @@ the lack of case sensitiveness in the file system.
 
 * Basic understanding: http://wiki.seeedstudio.com/wiki/LinkIt_Smart_7688
 
+* usbip: https://www.kernel.org/doc/readme/tools-usb-usbip-README
+
 Sunshine!
 	Your OpenWrt Project
 	http://openwrt.org
