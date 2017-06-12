@@ -33,6 +33,21 @@ the lack of case sensitiveness in the file system.
 
 * usbip: https://www.kernel.org/doc/readme/tools-usb-usbip-README
 
+* To check usbip in std. linux, install "linux-tools-generic" and "usbdata" and look for usbip and usbipd at /usr/lib/linux-tools/'uname-r'/
+
+* Reference source of implementation https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/tree/tools/usb/usbip?h=v4.10.17
+At server:
+# modprobe usbip_core
+# modprobe usbip_host
+# /usr/lib/linux-tools/'uname -r'/usbipd -D
+# /usr/lib/linux-tools/'uname -r'/usbip list -l
+# /usr/lib/linux-tools/'uanme -r'/usbip bind -b 2-1
+
+At client:
+# modprobe vhci-hcd
+# /usr/lib/linux-tools/'uname -r'/usbip list -r <remote ip>
+# /usr/lib/linux-tools/'uname -r'/usbip attach -r <remote ip> -b 2-1
+
 Sunshine!
 	Your OpenWrt Project
 	http://openwrt.org
